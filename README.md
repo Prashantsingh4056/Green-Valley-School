@@ -36,6 +36,6 @@ The project focuses on:
 
 ## 🚀 Deployment Link (Mandatory)
 Live Project Link:  
-https://your-deployed-project-link.com
+https://greenvalleyschool.netlify.app/
 
 ---
