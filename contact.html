@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fav-icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Full Screen Loader -->
+    <div id="loader-container">
+        <div class="loader"></div>
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <div onclick="window.location.href='index.html';" class="logo-container">
+                <div class="logo">🌳</div>
+                <span class="school-name">Green Valley School</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button class="login-btn" onclick="openAuthModal()">Login</button></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div id="modalContainer"></div>
+
+
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Get In Touch With Us</p>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-details">
+                            <h4>Address</h4>
+                            <p>Green Valley School<br>123 Education Street<br>Kota, Rajasthan 324001<br>India</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-details">
+                            <h4>Phone</h4>
+                            <p>Main Office: +91 98765 43210<br>Admission Desk: +91 98765 43211<br>Timing: Mon-Sat, 8:00
+                                AM - 4:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-details">
+                            <h4>Email</h4>
+                            <p>General: info@greenvalleyschool.edu<br>Admissions:
+                                admissions@greenvalleyschool.edu<br>Principal: principal@greenvalleyschool.edu</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-btn" title="Facebook">📘</a>
+                        <a href="#" class="social-btn" title="Instagram">📷</a>
+                        <a href="#" class="social-btn" title="Twitter">🐦</a>
+                        <a href="#" class="social-btn" title="YouTube">📹</a>
+                        <a href="#" class="social-btn" title="LinkedIn">💼</a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label>Your Name *</label>
+                            <input type="text" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Your Email *</label>
+                            <input type="email" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" placeholder="+91 XXXXX XXXXX">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Subject *</label>
+                            <input type="text" placeholder="What is this regarding?" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Message *</label>
+                            <textarea placeholder="Write your message here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.7720745728594!2d75.8247607!3d25.1826574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396f9b5b0b0b0b0b%3A0x0!2sKota%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1234567890"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- About Section -->
+                <div class="footer-about">
+                    <div class="footer-logo-section">
+                        <div class="footer-logo">🌳</div>
+                        <div class="footer-school-name">Green Valley School</div>
+                    </div>
+                    <p class="footer-description">
+                        Empowering students with quality education since 1995. We are committed to nurturing young minds
+                        and building a brighter future through excellence in academics, sports, and character
+                        development.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-btn" title="Facebook">📘</a>
+                        <a href="#" class="footer-social-btn" title="Instagram">📷</a>
+                        <a href="#" class="footer-social-btn" title="Twitter">🐦</a>
+                        <a href="#" class="footer-social-btn" title="YouTube">📹</a>
+                        <a href="#" class="footer-social-btn" title="LinkedIn">💼</a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="openAuthModal(); return false;">Student Portal</a></li>
+                        <li><a href="#" onclick="openAuthModal(); return false;">Parent Portal</a></li>
+                        <li><a href="#" onclick="openAuthModal(); return false;">Teacher Login</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Alumni</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📍</span>
+                        <span>123 Education Street<br>Kota, Rajasthan 324001</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📞</span>
+                        <span>+91 98765 43210</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">✉️</span>
+                        <span>info@greenvalleyschool.edu</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">🕐</span>
+                        <span>Mon - Sat: 8AM - 4PM</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Green Valley School. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"> </script>
+
+
+    <script>
+        fetch("auth-modal.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("modalContainer").innerHTML = html;
+            });
+    </script>
+
+
+    <!--! Loader -->
+
+    <script>
+        // your code goes here
+        // Hide loader after page is fully loaded
+        window.addEventListener("load", function () {
+            document.getElementById("loader-container").style.display = "none";
+        });
+    </script>
+</body>
+
+</html>

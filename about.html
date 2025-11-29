@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fav-icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Full Screen Loader -->
+    <div id="loader-container">
+        <div class="loader"></div>
+    </div>
+
+    <nav>
+        <div class="nav-container">
+            <div onclick="window.location.href='index.html';" class="logo-container">
+                <div class="logo">🌳</div>
+                <span class="school-name">Green Valley School</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button class="login-btn" onclick="openAuthModal()">Login</button></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div id="modalContainer"></div>
+
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <h2 class="section-title">About Green Valley School</h2>
+            <p class="section-subtitle">Excellence in Education Since 1995</p>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🎓</div>
+                    <h3>Our Mission</h3>
+                    <p>To provide quality education that empowers students to become lifelong learners, critical
+                        thinkers, and responsible global citizens who contribute positively to society.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">🌟</div>
+                    <h3>Our Vision</h3>
+                    <p>To be a leading educational institution recognized for academic excellence, innovative teaching
+                        methods, and holistic development of every student.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">💡</div>
+                    <h3>Our Values</h3>
+                    <p>Integrity, Innovation, Inclusivity, and Inspiration guide everything we do. We believe in
+                        nurturing not just minds, but hearts and character.</p>
+                </div>
+            </div>
+
+            <div class="stats-container">
+                <div class="stat-box">
+                    <div class="stat-number">2000+</div>
+                    <div class="stat-label">Students</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Teachers</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">30+</div>
+                    <div class="stat-label">Years Legacy</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- About Section -->
+                <div class="footer-about">
+                    <div class="footer-logo-section">
+                        <div class="footer-logo">🌳</div>
+                        <div class="footer-school-name">Green Valley School</div>
+                    </div>
+                    <p class="footer-description">
+                        Empowering students with quality education since 1995. We are committed to nurturing young minds
+                        and building a brighter future through excellence in academics, sports, and character
+                        development.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-btn" title="Facebook">📘</a>
+                        <a href="#" class="footer-social-btn" title="Instagram">📷</a>
+                        <a href="#" class="footer-social-btn" title="Twitter">🐦</a>
+                        <a href="#" class="footer-social-btn" title="YouTube">📹</a>
+                        <a href="#" class="footer-social-btn" title="LinkedIn">💼</a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="openAuthModal(); return false;">Student Portal</a></li>
+                        <li><a href="#" onclick="openAuthModal(); return false;">Parent Portal</a></li>
+                        <li><a href="#" onclick="openAuthModal(); return false;">Teacher Login</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Alumni</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📍</span>
+                        <span>123 Education Street<br>Kota, Rajasthan 324001</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📞</span>
+                        <span>+91 98765 43210</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">✉️</span>
+                        <span>info@greenvalleyschool.edu</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">🕐</span>
+                        <span>Mon - Sat: 8AM - 4PM</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Green Valley School. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"> </script>
+
+    <script>
+        fetch("auth-modal.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("modalContainer").innerHTML = html;
+            });
+    </script>
+
+
+    <!--! Loader -->
+
+    <script>
+        // your code goes here
+        // Hide loader after page is fully loaded
+        window.addEventListener("load", function () {
+            document.getElementById("loader-container").style.display = "none";
+        });
+    </script>
+</body>
+
+</html>
